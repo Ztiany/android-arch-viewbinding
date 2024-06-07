@@ -4,9 +4,9 @@ import android.view.View
 import androidx.viewbinding.ViewBinding
 
 /** This class can be used when there is no xml layout to generate a ViewBinding instance. */
-abstract class AbsViewBinding<out T : View>(private val rootView: T) : ViewBinding {
+class DynamicViewBinding<out T : View>(private val rootView: T) : ViewBinding {
 
-    override fun getRoot(): View {
+    override fun getRoot(): T {
         return rootView
     }
 
