@@ -13,12 +13,12 @@ android {
 }
 
 dependencies {
-    //Kotlin
+    // kotlin
     api(libs.kotlin.stdlib)
     api(libs.kotlin.reflect)
     api(libs.kotlinx.coroutines)
     api(libs.kotlinx.coroutines.android)
 
-    //Log
+    // log
     api(libs.jakewharton.timber)
 }
