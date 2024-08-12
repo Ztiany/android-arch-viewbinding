@@ -18,7 +18,6 @@ dependencies {
     api(libs.kotlin.reflect)
     api(libs.kotlinx.coroutines)
     api(libs.kotlinx.coroutines.android)
-
     // log
-    api(libs.jakewharton.timber)
+    implementation(libs.jakewharton.timber)
 }
